@@ -21,7 +21,7 @@ def start_server(host='0.0.0.0', port=3000):
         # Receive data from the client
         data = client_socket.recv(1024)
         if data:
-            print(f"Received data: {data.decode('utf-8')}")
+            print(f"Received dataa: {data.decode('utf-8')}")
 
         # Close the client connection
         client_socket.close()
